@@ -5,7 +5,7 @@ import java.util.Random;
 public class Kazuate {
     public static void main(String[] args) {
         Random r = new Random();
-        int ans = r.nextInt(89) + 10;
+        int ans = r.nextInt(90) + 10;
 
         for (int i = 0; i < 5; i++) {
             System.out.println("2桁の整数を入力してください");
