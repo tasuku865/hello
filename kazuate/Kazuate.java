@@ -5,10 +5,10 @@ import java.util.Random;
 public class Kazuate {
     public static void main(String[] args) {
         Random r = new Random();
-        int ans = r.nextInt(90) + 9;
+        int ans = r.nextInt(89) + 10;
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("2桁の整数を入力してください27");
+            System.out.println("2桁の整数を入力してください");
             int input = KeyBoardInput.inputNumber();
             if (input == ans) {
                 System.out.println("当たりです");
